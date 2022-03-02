@@ -1,0 +1,18 @@
+﻿<Window x:Class="DesignTimeSizing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesignTimeSizing"
+        mc:Ignorable="d"
+        Title="DesignTimeSizing" d:DesignHeight="356.398" d:DesignWidth="425.693">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="1,0" StartPoint="0.25,0" Opacity="1">
+                <GradientStop Color="#FF0E6491"/>
+                <GradientStop Color="#FFFFCD00" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+    </Grid>
+</Window>
